@@ -36,7 +36,7 @@ const Web = () => {
 
     };
 
-    function handleMleave(e) {
+    function handleMleave() {
         x.set(0);
         y.set(0);
 

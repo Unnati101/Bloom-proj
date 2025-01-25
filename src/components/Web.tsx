@@ -17,10 +17,10 @@ const Web = () => {
     const HALF_ROTATION_RANGE = ROTATION_RANGE / 2;
     const transform = useMotionTemplate`rotateX(${Xspring}deg) rotateY(${Yspring}deg)`;
 
-    const handleMmove = (e) => {
+    const handleMmove = (e: React.MouseEvent<HTMLInputElement> )=> {
 
-
-        const rect = e.target.getBoundingClientRect();
+        const target = e.target as HTMLDivElement;
+        const rect = target.getBoundingClientRect();
 
         const width = rect.width;
         const height = rect.height;

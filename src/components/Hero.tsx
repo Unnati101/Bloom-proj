@@ -1,6 +1,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import video from "../assets/3209858-uhd_3840_2160_25fps.mp4";
+import phone from "../assets/phone.svg";
 const Hero = () => {
 
     const { scrollYProgress } = useScroll();
@@ -55,7 +56,7 @@ const Hero = () => {
                             }}
                             className=" relative">
                             <img
-                                src="src/assets/phone.svg" className="w-50" />
+                                src={phone} className="w-50" />
                         </motion.div>
                         <div className="absolute">
                             <motion.div style={{

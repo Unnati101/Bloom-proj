@@ -1,5 +1,7 @@
 import { motion, useMotionValue, useScroll, useSpring, useTransform, useMotionTemplate } from "framer-motion";
-
+import web1 from "../assets/web1.svg";
+import web2 from "../assets/web2.svg";
+import web3 from "../assets/web3.svg";
 
 const Web = () => {
     const { scrollYProgress } = useScroll();
@@ -97,7 +99,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web1.svg" className="w-25" />
+                            src={web1} className="w-25" />
                     </motion.div>
                     <motion.div
 
@@ -106,7 +108,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web2.svg" className="w-25" />
+                            src={web2} className="w-25" />
                     </motion.div>
                     <motion.div
 
@@ -115,7 +117,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web3.svg" className="w-25" />
+                            src={web3} className="w-25" />
                     </motion.div>
 
                 </div>
@@ -127,7 +129,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web2.svg" className="w-30" />
+                            src={web2} className="w-30" />
                     </motion.div>
                     <motion.div
 
@@ -136,7 +138,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web3.svg" className="w-30" />
+                            src={web3} className="w-30" />
                     </motion.div>
                     <motion.div
 
@@ -145,7 +147,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web1.svg" className="w-30 " />
+                            src={web1} className="w-30 " />
                     </motion.div>
                 </div>
                 <div
@@ -157,7 +159,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web3.svg" className="w-25 " />
+                            src={web3} className="w-25 " />
                     </motion.div>
                     <motion.div
 
@@ -166,7 +168,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web1.svg" className="w-25" />
+                            src={web1} className="w-25" />
                     </motion.div>
                     <motion.div
                         style={{
@@ -174,7 +176,7 @@ const Web = () => {
                             transformStyle: "preserve-3d"
                         }}>
                         <img
-                            src="src/assets/web2.svg" className="w-25" />
+                            src={web2} className="w-25" />
                     </motion.div>
 
                 </div>
